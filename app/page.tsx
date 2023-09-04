@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>testing github workflow</h1>
+      <h1>home</h1>
     </main>
   );
 }
