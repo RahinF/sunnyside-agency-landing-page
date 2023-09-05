@@ -4,3 +4,8 @@ interface Testimony {
   testimony: string;
   avatar: string;
 }
+
+interface Picture {
+  src: string;
+  alt: string;
+}

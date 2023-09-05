@@ -1,3 +1,4 @@
+import PictureGrid from './components/PictureGrid';
 import Testimonials from './components/Testimonials';
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <main>
       <h1>home</h1>
       <Testimonials />
+      <PictureGrid />
     </main>
   );
 }

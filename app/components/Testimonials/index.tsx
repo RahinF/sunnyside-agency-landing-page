@@ -5,7 +5,13 @@ import testimonials from './data';
 const Testimonials = () => {
   return (
     <section className="py-32 bg-yellow-50/20">
-      <h1 className="font-fraunces text-center tracking-widest text-xl uppercase font-black text-neutral-400">
+      <h1
+        className={clsx([
+          'font-fraunces font-black',
+          'text-center text-xl text-neutral-400',
+          'uppercase tracking-widest',
+        ])}
+      >
         client testimonials
       </h1>
       <div
@@ -15,13 +21,10 @@ const Testimonials = () => {
           'grid grid-cols-1 md:grid-cols-3 gap-14',
         ])}
       >
-        {testimonials.map(({ name, role, testimony, avatar }) => (
+        {testimonials.map((testimonial) => (
           <Testimony
-            key={name}
-            name={name}
-            role={role}
-            testimony={testimony}
-            avatar={avatar}
+            key={testimonial.name}
+            {...testimonial}
           />
         ))}
       </div>
