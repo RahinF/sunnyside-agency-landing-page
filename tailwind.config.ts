@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'tile-yellow': '#FED501',
+        'tile-red': '#FE7F6E',
+        'tile-teal': '#9DDACB',
+        'tile-blue': '#5BCFFE',
+      },
       fontFamily: {
         barlow: ['var(--font-barlow)'],
         fraunces: ['var(--font-fraunces)'],
