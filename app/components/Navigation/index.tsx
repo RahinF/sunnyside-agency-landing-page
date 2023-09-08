@@ -1,7 +1,13 @@
-interface Props {}
+import DesktopNavigation from './Desktop';
+import MobileNavigation from './Mobile';
 
-const Navigation = ({}: Props) => {
-  return <nav>Navigation</nav>;
+const Navigation = () => {
+  return (
+    <header>
+      <DesktopNavigation />
+      <MobileNavigation />
+    </header>
+  );
 };
 
 export default Navigation;

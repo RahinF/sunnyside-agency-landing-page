@@ -29,8 +29,9 @@ const Hero = () => {
           <Image
             src="/icon-arrow-down.svg"
             alt="arrow"
-            width={35}
-            height={110}
+            width={36}
+            height={112}
+            className="w-9 h-28"
           />
         </div>
         <picture>

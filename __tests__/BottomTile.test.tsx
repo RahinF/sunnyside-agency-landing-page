@@ -3,9 +3,9 @@ import tiles from '@components/Tiles/data';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
-describe('Tiles', () => {
+describe('Bottom Tiles', () => {
   const tile = tiles.bottom[0];
-  
+
   it('renders a heading', () => {
     render(<BottomTile {...tile} />);
 

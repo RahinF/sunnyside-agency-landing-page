@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-header {
-  background: #3ebfff;
-}
-
 @layer components {
   .full-width-split-screen {
     grid-template-columns:

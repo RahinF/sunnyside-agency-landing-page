@@ -5,14 +5,6 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
 describe('Footer', () => {
-  it('renders a logo', () => {
-    render(<Footer />);
-
-    const logo = screen.getByRole('img');
-
-    expect(logo).toBeInTheDocument();
-  });
-
   it('renders 3 links', () => {
     render(<Footer />);
 

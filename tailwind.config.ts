@@ -13,6 +13,8 @@ const config: Config = {
         'tile-red': '#FE7F6E',
         'tile-teal': '#9DDACB',
         'tile-blue': '#5BCFFE',
+        header: '#3ebfff',
+        'header-active': '#6ED1FB',
       },
       fontFamily: {
         barlow: ['var(--font-barlow)'],
